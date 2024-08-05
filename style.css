@@ -1,0 +1,51 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: rgb(194, 8, 138);
+    background-color: rgb(46, 182, 223);
+}
+
+#show_sketch {
+    float:right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px yellow;}
+    to{box-shadow: 1px 1px 38px blue;}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#copyright_footer {
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+    position: fixed; 
+    background-color: aqua;
+    color: brown;
+    width: 100%;
+}
+
+#time_left {
+    float: right;
+    color: black;
+}
+
+#score {
+    float: left;
+    color: black;
+}
